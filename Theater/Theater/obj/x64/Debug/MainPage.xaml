@@ -1,0 +1,16 @@
+﻿<Page
+    x:Class="Theater.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Theater"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Button x:ConnectionId='1' x:Name="click" Content="click&#xD;&#xA;" HorizontalAlignment="Left" Margin="540,496,0,0" VerticalAlignment="Top"                      Width="151" Height="38"/>
+        <Image x:ConnectionId='2' x:Name="imageControl" HorizontalAlignment="Left" Height="431" Margin="230,34,0,0" VerticalAlignment="Top" Width="765"/>
+
+    </Grid>
+</Page>
+
